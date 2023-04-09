@@ -1,0 +1,54 @@
+.vision-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.vision-wrapper {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    max-width: 1210px;
+    width: 100%;
+}
+
+.mission {
+    padding: 15px;
+}
+.vision {
+    padding: 15px;
+}
+.core {
+    padding: 15px;
+}
+
+.mission,
+.vision,
+.core {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    svg {
+        margin-top: 20px;
+        margin-bottom: 13px;
+        color: #fd9e2b;
+        font-size: 4.7rem;
+    }
+
+    h3 {
+        color: #fd9e2b;
+        font-size: 3rem;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+
+    p {
+        text-align: center;
+        color: #7a7a7a;
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 32.4px;
+    }
+}

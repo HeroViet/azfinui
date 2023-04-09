@@ -1,0 +1,31 @@
+.author-properties {
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #eeeeee;
+    display: flex;
+}
+
+.author-image {
+    img {
+        border-radius: 50%;
+    }
+}
+
+.author-content {
+    margin-left: 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.news-page {
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border: 1px solid #dedede;
+    color: var(--text-color);
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}

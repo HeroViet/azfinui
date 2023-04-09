@@ -1,0 +1,141 @@
+.topbar-container {
+    background-color: #313131;
+}
+
+.topbar-wrapper {
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    max-width: var(--default-layout-width);
+    font-size: 1.2rem;
+}
+
+.topbar-socials {
+    a {
+        color: #fff;
+    }
+}
+.topbar-left {
+}
+.topbar-news {
+    display: flex;
+    height: 32px;
+}
+
+.topbar-news-title {
+    position: relative;
+    height: 32px;
+    font-weight: 700;
+    display: inline-block;
+    background-color: #274984;
+    padding: 0 15px;
+    margin-right: 9px;
+    line-height: 32px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: -9px;
+        bottom: 0;
+        display: inline-block;
+        border-left: 9px solid #274984;
+        border-top: 32px solid transparent;
+    }
+}
+
+.topbar-news-chevron {
+    display: inline-block;
+    padding: 0 8px;
+    height: 32px;
+    line-height: 32px;
+
+    svg {
+        display: inline-block;
+        padding: 0 5px;
+        cursor: pointer;
+        font-size: 11px;
+        opacity: 0.6;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.topbar-news-list {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.topbar-socials {
+    margin-left: 20px;
+    font-weight: 700;
+
+    a {
+        margin-left: 13px;
+        display: inline-block;
+        height: 32px;
+        line-height: 32px;
+
+        &:hover {
+            color: var(--hover-color);
+        }
+    }
+
+    :first-child {
+        margin-left: 0;
+    }
+}
+
+.topbar-news-list {
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.topbar-news-list-wrapper {
+    transition: all 0.3s;
+    max-width: 320px;
+}
+
+.topbar-news-list-item {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    color: #fff;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    &:hover {
+        color: var(--hover-color);
+    }
+}
+
+.topbar-navs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+        display: inline-block;
+        margin-right: 20px;
+        height: 32px;
+        line-height: 32px;
+
+        &:hover a {
+            color: var(--hover-color);
+        }
+    }
+
+    :last-child {
+        margin-right: 0;
+    }
+
+    a {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,43 @@
+.header-container {
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    // margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--default-layout-width);
+}
+
+.logo-default {
+    width: 125.92px;
+    height: 79.98px;
+    padding: 12px 0;
+    cursor: pointer;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.header-menu-button {
+    font-size: 2rem;
+    margin: 0 12px;
+    background-color: #fff;
+    cursor: pointer;
+
+    &:hover {
+        color: var(--hover-color);
+    }
+}

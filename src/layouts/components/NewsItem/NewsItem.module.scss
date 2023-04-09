@@ -1,0 +1,130 @@
+.news-item-wrapper {
+    display: block;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+//image
+.news-item-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all 0.4s;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &::before {
+        content: '';
+        display: block;
+        content: '';
+        width: 100%;
+        padding-top: 56.25%;
+    }
+}
+
+//left
+.news-item-content {
+}
+
+.news-item-content-kind {
+    display: block;
+    color: var(--hover-color);
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.news-item-content-title {
+    display: block;
+    color: var(--text-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 2.4rem;
+    transition: all 0.3;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.news-item--note {
+    margin-top: 12px;
+    margin-bottom: 19px;
+    font-size: 1.4rem;
+    span {
+        color: var(--sidebar-color-word);
+    }
+}
+
+.news-item-note-author {
+    &::after {
+        content: '';
+        display: inline-block;
+        width: 1px;
+        height: 10px;
+        border-right: 1px solid;
+        margin: 0 8px 0 10px;
+        color: var(--sidebar-color-word);
+        opacity: 0.6;
+    }
+
+    &:hover {
+        color: var(--hover-color);
+    }
+}
+
+.news-item-direction {
+    margin-top: 18px;
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.news-item-icon {
+    color: #313131;
+    font-size: 1.4rem;
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: 10px;
+
+    &:hover {
+        color: #304ffe;
+    }
+}
+.news-item-social {
+    margin-top: 16px;
+    position: relative;
+    background-color: transparent;
+
+    span {
+        margin-left: 0;
+        &:focus {
+            background-color: #313131;
+        }
+    }
+
+    &::before {
+        content: '';
+        display: block;
+        background-color: #dedede;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 1px;
+        width: 100%;
+        z-index: 2;
+    }
+}
+
+.news-item-icons {
+    padding: 0 10px;
+    z-index: 5;
+    background-color: white;
+}

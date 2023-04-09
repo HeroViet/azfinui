@@ -1,0 +1,23 @@
+/* .swiper-button-next,
+.swiper-button-prev {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: #888;
+    background-color: white;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    opacity: 0;
+    transition: 0.4s all;
+}
+
+#News-swiper-id:hover .swiper-button-next,
+#News-swiper-id:hover .swiper-button-prev {
+    opacity: 1;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: none;
+} */
