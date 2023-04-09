@@ -1,6 +1,6 @@
 import HeaderOnly from '~/layouts/HeaderOnly';
 
-const { default: Home } = require('~/pages/Home');
+const { default: azfinui } = require('~/pages/Home');
 const { default: Profile } = require('~/pages/Profile');
 const { default: Search } = require('~/pages/Search');
 const { default: Contact } = require('~/pages/Contact');
@@ -25,7 +25,7 @@ const { default: generalPost } = require('~/pages/generalPost');
 const { default: Represent } = require('~/pages/Represent');
 
 const publicRoutes = [
-    { path: '/azfin-ui', component: Home },
+    { path: '/', component: azfinui },
     { path: '/@profile', component: Profile, layout: HeaderOnly },
     { path: '/@search', component: Search },
     { path: '/@contact', component: Contact },
