@@ -25,7 +25,7 @@ const { default: generalPost } = require('~/pages/generalPost');
 const { default: Represent } = require('~/pages/Represent');
 
 const publicRoutes = [
-    { path: '/', component: Home },
+    { path: '/azfin-ui', component: Home },
     { path: '/@profile', component: Profile, layout: HeaderOnly },
     { path: '/@search', component: Search },
     { path: '/@contact', component: Contact },
