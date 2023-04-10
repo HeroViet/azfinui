@@ -26,6 +26,7 @@ const { default: Represent } = require('~/pages/Represent');
 
 const publicRoutes = [
     { path: '/', component: azfinui },
+    { path: '/azfinui', component: azfinui },
     { path: '/@profile', component: Profile, layout: HeaderOnly },
     { path: '/@search', component: Search },
     { path: '/@contact', component: Contact },
