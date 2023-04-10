@@ -574,7 +574,7 @@ export const DATA_NEWS = [
         id: 0,
         item: [
             {
-                name: 'absolute top-0 left-0 right-0 lg:top-0 lg:left-0 lg:bottom-0 border-r-0 lg:border-r-[10px] text-[2.4rem]-full lg:w-[67.4%] h-2/3 lg:h-full',
+                name: 'absolute top-0 left-0 right-0 lg:top-0 lg:left-0 lg:bottom-0 border-r-0 lg:border-r-[10px] rounded-2xl text-[2.4rem]  lg:w-[67.4%] h-2/3 lg:h-full overflow-hidden',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/09/1495292936664-1-780x516.jpg")',
                 href: '/represent',
                 title: 'Sơ lược BCTC (Phần 2) – Quy trình kinh doanh',

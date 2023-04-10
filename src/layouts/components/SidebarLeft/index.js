@@ -98,7 +98,7 @@ function SidebarLeft() {
                                                     </div>
                                                 </div>
                                             );
-                                        } else return 1;
+                                        } else return '';
                                     })}
                                 </div>
                             </div>

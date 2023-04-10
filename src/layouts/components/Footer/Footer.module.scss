@@ -97,7 +97,6 @@
         padding: 12px 20px;
         width: 100%;
         border: 1px solid;
-        margin-bottom: 28px;
         font-size: 1.4rem;
         color: #070707;
         font-weight: normal;
@@ -109,6 +108,9 @@
             font-family: 'Roboto';
         }
     }
+    div {
+        margin-bottom: 28px;
+    }
 }
 
 .footer-contact-message {
@@ -119,7 +121,6 @@
         height: 120px;
         padding: 15px 20px;
         border: 1px solid;
-        margin-bottom: 28px;
         font-size: 1.4rem;
         color: #070707;
         font-weight: normal;
@@ -200,12 +201,6 @@
     padding: 10px;
     font-family: 'Roboto';
     line-height: 22.4px;
-}
-
-.footer-profile-social-contact {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
 }
 
 .footer-social-list {

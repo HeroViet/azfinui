@@ -152,7 +152,7 @@ function Sidebar({ home = false }) {
                                         <a href={item.href}>{item.title}</a>
                                     </li>
                                 );
-                            } else return 1;
+                            } else return '';
                         })}
                     </div>
                 </div>

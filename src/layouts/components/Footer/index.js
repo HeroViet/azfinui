@@ -3,6 +3,7 @@ import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faLinkedin, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { DATA_SOCIALS } from '~/components/assets/datas';
+import validator from 'validator';
 
 const cx = classNames.bind(styles);
 
@@ -37,6 +38,58 @@ function Footer() {
         footer: '@2021 - Bản quyền nội dung thuộc về ',
     };
 
+    const onblur = (e) => {
+        let valueElement = e.target.value;
+        let errorMessage = e.target.parentElement.querySelector('.error-message');
+        let isvalid = true;
+
+        if (e.target.placeholder === 'Email*') {
+            if (validator.isEmail(valueElement)) {
+                isvalid = true;
+            } else {
+                isvalid = false;
+                errorMessage.innerText =
+                    valueElement.length === 0 ? 'Vui lòng nhập trường này' : 'Trường này phải là email';
+            }
+        } else if (e.target.placeholder === 'Số điện thoại*') {
+            if (validator.isMobilePhone(valueElement)) {
+                isvalid = true;
+            } else {
+                isvalid = false;
+                errorMessage.innerText =
+                    valueElement.length === 0
+                        ? 'Vui lòng nhập trường này'
+                        : 'Vui lòng nhập đúng định dạng số điện thoại';
+            }
+        } else {
+            if (valueElement.trim()) {
+                isvalid = true;
+            } else {
+                isvalid = false;
+                errorMessage.innerText = 'Vui lòng nhập trường này';
+            }
+        }
+        if (!isvalid) {
+            e.target.parentElement.classList.add('invalid');
+        } else {
+            errorMessage.innerText = '';
+            e.target.parentElement.classList.remove('invalid');
+        }
+    };
+
+    const onchangeinput = (e) => {
+        let errorMessage = e.target.parentElement.querySelector('.error-message');
+        errorMessage.innerText = '';
+        e.target.parentElement.classList.remove('invalid');
+        return;
+    };
+
+    const handlesubmit = (e) => {
+        e.preventDefault();
+        // let formContact = e.target.parentElement.matches('#form-main').querySelectorAll('.form-mesage .error-message');
+        // let arrFormContact = Array.from(formContact).forEach((item) => {if(item.innerText) {}});
+    };
+
     return (
         <footer className={cx('wrapper', 'mt-12 w-full')}>
             <section className={cx('footer-title')}>
@@ -58,26 +111,67 @@ function Footer() {
                 </div>
             </section>
             <section className={cx('footer-contact')}>
-                <div className={cx('footer-contact-wrapper')}>
+                <div id="form-main" className={cx('footer-contact-wrapper')}>
                     <div className={cx('footer-contact-title')}>
-                        <p>{DATA_FOOTER.contact.title}</p>
+                        <p
+                            onClick={(e) => {
+                                console.log(e.target.parentElement);
+                            }}
+                        >
+                            {DATA_FOOTER.contact.title}
+                        </p>
                     </div>
-                    <div className={cx('footer-contact-todo', 'flex flex-wrap')}>
-                        <div className={cx('footer-contact-name', 'w-full md:w-1/3 px-[1.4rem]')}>
-                            <input type="text" placeholder="Họ tên*" />
+                    <div id="form-contact" className={cx('footer-contact-todo', 'flex flex-wrap')}>
+                        <div className={cx('footer-contact-name form-message w-full md:w-1/3 px-[1.4rem]')}>
+                            <input
+                                type="text"
+                                placeholder="Họ tên*"
+                                onBlur={onblur}
+                                onInput={onchangeinput}
+                                className="form-input"
+                            />
+                            <span className="error-message"></span>
                         </div>
-                        <div className={cx('footer-contact-email', 'w-full md:w-1/3 px-[1.4rem]')}>
-                            <input type="text" placeholder="Email*" />
+                        <div className="footer-contact-email form-message w-full md:w-1/3 px-[1.4rem]">
+                            <input
+                                type="text"
+                                placeholder="Email*"
+                                onBlur={onblur}
+                                onInput={onchangeinput}
+                                className="form-input"
+                            />
+                            <span className="error-message"></span>
                         </div>
-                        <div className={cx('footer-contact-phone', 'w-full md:w-1/3 px-[1.4rem]')}>
-                            <input type="text" placeholder="Số điện thoại*" />
+                        <div className="footer-contact-phone form-message w-full md:w-1/3 px-[1.4rem]">
+                            <input
+                                type="text"
+                                placeholder="Số điện thoại*"
+                                onBlur={onblur}
+                                onInput={onchangeinput}
+                                className="form-input"
+                            />
+                            <span className="error-message"></span>
                         </div>
-                        <div className={cx('footer-contact-message', 'w-full')}>
-                            <textarea cols="40" rows="10" type="text" placeholder="Phản Hồi/Nhận Xét*" />
+                        <div className={cx('footer-contact-message', 'form-message', 'w-full')}>
+                            <textarea
+                                cols="40"
+                                rows="10"
+                                type="text"
+                                placeholder="Phản Hồi/Nhận Xét*"
+                                onBlur={onblur}
+                                onInput={onchangeinput}
+                                className="form-input"
+                            />
+                            <span className="error-message"></span>
                         </div>
                     </div>
                     <div className={cx('footer-submit')}>
-                        <input type="submit" value="GỬI NGAY" className={cx('footer-contact-submit', 'bg-cyan-50')} />
+                        <input
+                            type="submit"
+                            value="GỬI NGAY"
+                            className={cx('footer-contact-submit', 'bg-cyan-50')}
+                            onSubmit={handlesubmit}
+                        />
                     </div>
                 </div>
             </section>
