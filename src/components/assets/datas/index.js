@@ -30,7 +30,7 @@ export const DATA_GLOBAL = [
             {
                 post: 0,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -39,7 +39,7 @@ export const DATA_GLOBAL = [
             {
                 post: 1,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -48,7 +48,7 @@ export const DATA_GLOBAL = [
             {
                 post: 2,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -57,7 +57,7 @@ export const DATA_GLOBAL = [
             {
                 post: 3,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -66,7 +66,7 @@ export const DATA_GLOBAL = [
             {
                 post: 4,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -75,7 +75,7 @@ export const DATA_GLOBAL = [
             {
                 post: 5,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -84,7 +84,7 @@ export const DATA_GLOBAL = [
             {
                 post: 6,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -93,7 +93,7 @@ export const DATA_GLOBAL = [
             {
                 post: 7,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -102,7 +102,7 @@ export const DATA_GLOBAL = [
             {
                 post: 8,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -111,7 +111,7 @@ export const DATA_GLOBAL = [
             {
                 post: 9,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -120,7 +120,7 @@ export const DATA_GLOBAL = [
             {
                 post: 10,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -129,7 +129,7 @@ export const DATA_GLOBAL = [
             {
                 post: 11,
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/07/photo1638349402096-16383494031431152649366-585x390.webp")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Một bước sai lầm, 9 năm “ôm nợ” và hành trình kiếm 1 triệu USD đầu tiên của Founder Azfin Việt Nam',
                 author: { name: 'mainguyen', href: '/@mainguyen' },
                 date: '06/07/2022',
@@ -138,7 +138,7 @@ export const DATA_GLOBAL = [
             {
                 post: 12,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -147,7 +147,7 @@ export const DATA_GLOBAL = [
             {
                 post: 13,
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/07/photo1638349402096-16383494031431152649366-585x390.webp")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Một bước sai lầm, 9 năm “ôm nợ” và hành trình kiếm 1 triệu USD đầu tiên của Founder Azfin Việt Nam',
                 author: { name: 'mainguyen', href: '/@mainguyen' },
                 date: '06/07/2022',
@@ -156,7 +156,7 @@ export const DATA_GLOBAL = [
             {
                 post: 14,
                 image: 'url(https://azfin.vn/wp-content/uploads/2023/01/tin-tuc-585x390.png)',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Điểm tin chứng khoán ngày 09/01/2013',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -166,7 +166,7 @@ export const DATA_GLOBAL = [
             {
                 post: 15,
                 image: 'url(https://azfin.vn/wp-content/uploads/2023/01/thumnail-diem-tin-2-585x390.png)',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Điểm tin chứng khoán ngày 10/01/2013',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '10/01/2023',
@@ -175,7 +175,7 @@ export const DATA_GLOBAL = [
             {
                 post: 16,
                 image: 'url(https://azfin.vn/wp-content/uploads/2023/01/thumnail-diem-tin-3-585x390.png)',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Điểm tin chứng khoán ngày 11/01/2013',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '11/01/2023',
@@ -184,7 +184,7 @@ export const DATA_GLOBAL = [
             {
                 post: 17,
                 image: 'url(https://azfin.vn/wp-content/uploads/2023/01/thumnail-diem-tin-4-585x390.png)',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Điểm tin chứng khoán ngày 12/01/2013',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '12/01/2023',
@@ -193,7 +193,7 @@ export const DATA_GLOBAL = [
             {
                 post: 18,
                 image: 'url(https://azfin.vn/wp-content/uploads/2023/01/thumnail-diem-tin-5-585x390.png)',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Điểm tin chứng khoán ngày 13/01/2013',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '13/01/2023',
@@ -209,7 +209,7 @@ export const DATA_GLOBAL = [
             {
                 post: 1,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/file-thumb-3-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'TPB: KQKD tăng trưởng mạnh nhưng có dấu hiệu chững lại từ hoạt động chính',
                 author: { name: 'mainguyen', href: '/@mainguyen' },
                 date: '29/01/2023',
@@ -219,7 +219,7 @@ export const DATA_GLOBAL = [
             {
                 post: 2,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/file-thumb-4-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Cập nhật KQKD của ACB năm 2022: Tăng trưởng cao với chất lượng tài sản xuất sắc',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '31/01/2023',
@@ -228,7 +228,7 @@ export const DATA_GLOBAL = [
             {
                 post: 3,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/6d2da1353eb8e5e6bca9-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'REE – Ông vua đầu tư tài chính',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '31/01/2023',
@@ -237,7 +237,7 @@ export const DATA_GLOBAL = [
             {
                 post: 4,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/file-thumb-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Cập nhật KQKD của MBB năm 2022: Đi nhanh và bền vững',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '01/02/2023',
@@ -246,7 +246,7 @@ export const DATA_GLOBAL = [
             {
                 post: 5,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/TCB-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Cập nhật KQKD 2022 của TCB: Khủng hoảng trái phiếu ảnh hưởng mạnh đến KQKD',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '02/02/2023',
@@ -262,7 +262,7 @@ export const DATA_GLOBAL = [
             {
                 post: 1,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/anh-thum-nal-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các sàn chứng khoán uy tín nhất tại Việt Nam năm 2023',
                 author: { name: 'Hai Yen Bui', href: '/@haiyenbui' },
                 date: '14/01/2023',
@@ -272,7 +272,7 @@ export const DATA_GLOBAL = [
             {
                 post: 2,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'Hai Yen Bui', href: '/@haiyenbui' },
                 date: '14/01/2023',
@@ -281,7 +281,7 @@ export const DATA_GLOBAL = [
             {
                 post: 3,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/sddf-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Báo cáo tài chính gồm những gì?',
                 author: { name: 'Hai Yen Bui', href: '/@haiyenbui' },
                 date: '03/02/2023',
@@ -290,7 +290,7 @@ export const DATA_GLOBAL = [
             {
                 post: 4,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/ssd-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Cách đọc báo cáo tài chính trong đầu tư chứng khoán',
                 author: { name: 'Quốc Đạt Đinh', href: '/@quocdatdinh' },
                 date: '04/02/2023',
@@ -299,7 +299,7 @@ export const DATA_GLOBAL = [
             {
                 post: 5,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/dsffdfds-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Cách phân tích báo cáo tài chính trong đầu tư chứng khoán',
                 author: { name: 'Thành Tư Nguyễn', href: '/@thanhtunguyen' },
                 date: '06/02/202/@thanhtunguyen',
@@ -308,7 +308,7 @@ export const DATA_GLOBAL = [
             {
                 post: 6,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/Sach-danh-cho-nhung-nguoi-moi-dau-tu-chung-khoan-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: '7 cuốn sách về đầu tư chứng khoán dành cho người mới mà bạn không thể bỏ qua',
                 author: { name: 'Phi Hổ', href: '/@phiho' },
                 date: '24/02/2023',
@@ -317,7 +317,7 @@ export const DATA_GLOBAL = [
             {
                 post: 7,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/bg-progetti-40-compressor-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Báo cáo tài chính hợp nhất là gì? Phân biệt báo cáo tài chính hợp nhất và riêng lẻ ',
                 author: { name: 'Hai Yen Bui', href: '/@haiyenbui' },
                 date: '09/02/2023',
@@ -326,7 +326,7 @@ export const DATA_GLOBAL = [
             {
                 post: 8,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/kiem-tien-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Cách kiếm tiền từ đầu tư cổ phiếu cho người mới',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '20/02/2023',
@@ -335,7 +335,7 @@ export const DATA_GLOBAL = [
             {
                 post: 9,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/avata-1-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: '5 bước tự xây dựng danh mục đầu tư chứng khoán',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '20/02/2023',
@@ -344,7 +344,7 @@ export const DATA_GLOBAL = [
             {
                 post: 10,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/co-phieu-hay-trai-phieu-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Nên đầu tư cổ phiếu hay trái phiếu?',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '22/02/2023',
@@ -353,7 +353,7 @@ export const DATA_GLOBAL = [
             {
                 post: 11,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/file-thumb-1-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: '6 Lợi ích từ việc tham gia đầu tư cổ phiếu',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '22/02/2023',
@@ -362,7 +362,7 @@ export const DATA_GLOBAL = [
             {
                 post: 12,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/Sach-danh-cho-nhung-nguoi-moi-dau-tu-chung-khoan-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: '7 cuốn sách về đầu tư chứng khoán dành cho người mới mà bạn không thể bỏ qua',
                 author: { name: 'Phi Hổ', href: '/@phiho' },
                 date: '24/02/2023',
@@ -371,7 +371,7 @@ export const DATA_GLOBAL = [
             {
                 post: 13,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/avata-1-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: '5 bước tự xây dựng danh mục đầu tư chứng khoán',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '20/02/2023',
@@ -380,7 +380,7 @@ export const DATA_GLOBAL = [
             {
                 post: 14,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/co-phieu-hay-trai-phieu-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Nên đầu tư cổ phiếu hay trái phiếu?',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '22/02/2023',
@@ -389,7 +389,7 @@ export const DATA_GLOBAL = [
             {
                 post: 15,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/file-thumb-1-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: '6 Lợi ích từ việc tham gia đầu tư cổ phiếu',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '22/02/2023',
@@ -398,7 +398,7 @@ export const DATA_GLOBAL = [
             {
                 post: 16,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/Sach-danh-cho-nhung-nguoi-moi-dau-tu-chung-khoan-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: '7 cuốn sách về đầu tư chứng khoán dành cho người mới mà bạn không thể bỏ qua',
                 author: { name: 'Phi Hổ', href: '/@phiho' },
                 date: '24/02/2023',
@@ -407,7 +407,7 @@ export const DATA_GLOBAL = [
             {
                 post: 17,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/Sach-danh-cho-nhung-nguoi-moi-dau-tu-chung-khoan-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: '7 cuốn sách về đầu tư chứng khoán dành cho người mới mà bạn không thể bỏ qua',
                 author: { name: 'Phi Hổ', href: '/@phiho' },
                 date: '24/02/2023',
@@ -416,7 +416,7 @@ export const DATA_GLOBAL = [
             {
                 post: 18,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/co-phieu-hay-trai-phieu-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Nên đầu tư cổ phiếu hay trái phiếu?',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '22/02/2023',
@@ -425,7 +425,7 @@ export const DATA_GLOBAL = [
             {
                 post: 19,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -434,7 +434,7 @@ export const DATA_GLOBAL = [
             {
                 post: 20,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/Sach-danh-cho-nhung-nguoi-moi-dau-tu-chung-khoan-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: '7 cuốn sách về đầu tư chứng khoán dành cho người mới mà bạn không thể bỏ qua',
                 author: { name: 'Phi Hổ', href: '/@phiho' },
                 date: '24/02/2023',
@@ -443,7 +443,7 @@ export const DATA_GLOBAL = [
             {
                 post: 21,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/01/thum-1-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Các thuật ngữ trong chứng khoán mới nhất năm 2023',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '09/01/2023',
@@ -452,7 +452,7 @@ export const DATA_GLOBAL = [
             {
                 post: 22,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/co-phieu-hay-trai-phieu-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Nên đầu tư cổ phiếu hay trái phiếu?',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '22/02/2023',
@@ -461,7 +461,7 @@ export const DATA_GLOBAL = [
             {
                 post: 23,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/file-thumb-1-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: '6 Lợi ích từ việc tham gia đầu tư cổ phiếu',
                 author: { name: 'khoi dang', href: '/@khoidang' },
                 date: '22/02/2023',
@@ -470,7 +470,7 @@ export const DATA_GLOBAL = [
             {
                 post: 24,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/Sach-danh-cho-nhung-nguoi-moi-dau-tu-chung-khoan-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: '7 cuốn sách về đầu tư chứng khoán dành cho người mới mà bạn không thể bỏ qua',
                 author: { name: 'Phi Hổ', href: '/@phiho' },
                 date: '24/02/2023',
@@ -486,7 +486,7 @@ export const DATA_GLOBAL = [
             {
                 post: 1,
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/02/co-phieu-dau-nganh-585x381.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Cổ phiếu đầu ngành là điểm đến dòng tiền',
                 author: { name: 'mainguyen', href: '/@mainguyen' },
                 date: '24/02/2022',
@@ -496,7 +496,7 @@ export const DATA_GLOBAL = [
             {
                 post: 2,
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/02/bao-cao-tai-chinh-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Lưu ý trước khi đầu tư cổ phiếu bất động sản khu công nghiệp',
                 author: { name: 'mainguyen', href: '/@mainguyen' },
                 date: '24/02/2022',
@@ -505,7 +505,7 @@ export const DATA_GLOBAL = [
             {
                 post: 3,
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/03/no-xau-16229742388051062413218-585x352.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Nợ xấu không đáng ngại cho tăng trưởng của các ngân hàng',
                 author: { name: 'mainguyen', href: '/@mainguyen' },
                 date: '02/03/2022',
@@ -514,7 +514,7 @@ export const DATA_GLOBAL = [
             {
                 post: 4,
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/07/1-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Chủ tịch AzFin Việt Nam: ‘Giới trẻ hiện nay không tiết kiệm cũng không đầu tư’',
                 author: { name: 'mainguyen', href: '/@mainguyen' },
                 date: '06/07/2022',
@@ -523,7 +523,7 @@ export const DATA_GLOBAL = [
             {
                 post: 5,
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/07/photo1638349402096-16383494031431152649366-585x390.webp")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Một bước sai lầm, 9 năm “ôm nợ” và hành trình kiếm 1 triệu USD đầu tiên của Founder Azfin Việt Nam',
                 author: { name: 'mainguyen', href: '/@mainguyen' },
                 date: '06/07/2022',
@@ -532,7 +532,7 @@ export const DATA_GLOBAL = [
             {
                 post: 6,
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/07/photo1627033810714-1627033810965132977255-585x390.webp")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Dịch Covid ảnh hưởng tới thu nhập nhiều người, chuyên gia mách nước làm thế nào có thể kiếm tiền tự động, sinh lời đều đặn và bền vững’',
                 author: { name: 'mainguyen', href: '/@mainguyen' },
                 date: '06/07/2022',
@@ -541,7 +541,7 @@ export const DATA_GLOBAL = [
             {
                 post: 7,
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/07/tich-san-co-phieu-phu-hop-nha-dau-tu-ca-nhan1644159237-470x250.jpeg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Tích sản cổ phiếu có phù hợp với nhà đầu tư cá nhân?',
                 author: { name: 'mainguyen', href: '/@mainguyen' },
                 date: '06/07/2022',
@@ -550,7 +550,7 @@ export const DATA_GLOBAL = [
             {
                 post: 8,
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/08/avta-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'AzFin cảnh báo chiêu thức lừa đảo mạo danh',
                 author: { name: 'mainguyen', href: '/@mainguyen' },
                 date: '09/08/2022',
@@ -559,7 +559,7 @@ export const DATA_GLOBAL = [
             {
                 post: 9,
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/Sach-danh-cho-nhung-nguoi-moi-dau-tu-chung-khoan-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: '7 cuốn sách về đầu tư chứng khoán dành cho người mới mà bạn không thể bỏ qua',
                 author: { name: 'Phi Hổ', href: '/@phiho' },
                 date: '24/02/2023',
@@ -576,7 +576,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute top-0 left-0 right-0 lg:top-0 lg:left-0 lg:bottom-0 border-r-0 lg:border-r-[10px] text-[2.4rem]-full lg:w-[67.4%] h-2/3 lg:h-full',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/09/1495292936664-1-780x516.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Sơ lược BCTC (Phần 2) – Quy trình kinh doanh',
                 content: 'Sơ lược BCTC (Phần 2) – Quy trình kinh doanh',
                 author: {
@@ -593,7 +593,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute left:0 bottom-0 border-t-[10px] border-r-[5px]  lg:top-0 lg:right-0 lg:border-b-[5px] lg:border-t-0 lg:border-r-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url(https://azfin.vn/wp-content/uploads/2022/09/1495292936664-585x390.jpg)',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Sơ lược về Báo Cáo Tài Chính (Phần 1)',
                 content: 'Sơ lược về Báo Cáo Tài Chính (Phần 1)',
                 author: {
@@ -610,7 +610,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute bottom-0 right-0 border-t-[10px] border-l-[5px] lg:border-t-[5px] lg:border-l-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/04/Dau-tu-thoi-ki-bien-dong-chinh-tri-AzFin-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Đầu tư gì trong thời đại biến động địa chính trị',
                 content: 'Đầu tư gì trong thời đại biến động địa chính trị',
                 author: {
@@ -632,7 +632,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute top-0 left-0 right-0 lg:top-0 lg:left-0 lg:bottom-0 border-r-0 lg:border-r-[10px] text-[2.4rem]-full lg:w-[67.4%] h-2/3 lg:h-full',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/04/DSC01716-780x516.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Lễ ký kết thỏa thuận hợp tác giữa VMO Holdings Tech.,JSC và AzFin Việt Nam',
                 content: 'Lễ ký kết thỏa thuận hợp tác giữa VMO Holdings Tech.,JSC và AzFin Việt Nam',
                 author: {
@@ -649,7 +649,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute left:0 bottom-0 border-t-[10px] border-r-[5px]  lg:top-0 lg:right-0 lg:border-b-[5px] lg:border-t-0 lg:border-r-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/03/Nhat-ky-dau-tu-69-co-phieu-P1-FPT-AzFin-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Nhật ký đầu tư cổ phiếu FPT',
                 content: 'Nhật ký đầu tư cổ phiếu FPT',
                 author: {
@@ -666,7 +666,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute bottom-0 right-0 border-t-[10px] border-l-[5px] lg:border-t-[5px] lg:border-l-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/03/a12-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Cao su tự nhiên và cơ hội đầu tư cho chu kỳ hiện tại',
                 content: 'Cao su tự nhiên và cơ hội đầu tư cho chu kỳ hiện tại',
                 author: {
@@ -688,7 +688,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute top-0 left-0 right-0 lg:top-0 lg:left-0 lg:bottom-0 border-r-0 lg:border-r-[10px] text-[2.4rem]-full lg:w-[67.4%] h-2/3 lg:h-full',
                 image: 'url("https://azfin.vn/wp-content/uploads/2021/11/AzFin-Thi-truong-Chung-khoan-hang-ngay_1.jpeg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Bản tin AzNews 24/7 số 24 – Thông tin trọng điểm tuần 14.03 – 18.03.2022',
                 content: 'Bản tin AzNews 24/7 số 24 – Thông tin trọng điểm tuần 14.03 – 18.03.2022',
                 author: {
@@ -705,7 +705,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute left:0 bottom-0 border-t-[10px] border-r-[5px]  lg:top-0 lg:right-0 lg:border-b-[5px] lg:border-t-0 lg:border-r-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/01/AzFin-Thi-truong-Chung-khoan-hang-ngay_1-1-585x314.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Bản tin AzNews 24/7 số 23 – Thông tin trọng điểm tuần 07.03 – 11.03',
                 content: 'Bản tin AzNews 24/7 số 23 – Thông tin trọng điểm tuần 07.03 – 11.03',
                 author: {
@@ -722,7 +722,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute bottom-0 right-0 border-t-[10px] border-l-[5px] lg:border-t-[5px] lg:border-l-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/03/file-thumb-6-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Mastering The Market Cycle ( Phân tích thị trường chứng khoán)',
                 content: 'Mastering The Market Cycle ( Phân tích thị trường chứng khoán)',
                 author: {
@@ -744,7 +744,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute top-0 left-0 right-0 lg:top-0 lg:left-0 lg:bottom-0 border-r-0 lg:border-r-[10px] text-[2.4rem]-full lg:w-[67.4%] h-2/3 lg:h-full',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/03/Sieu-chu-ky-hang-hoa-780x516.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Siêu chu kỳ hàng hóa tiếp tục bùng nổ',
                 content: 'Siêu chu kỳ hàng hóa tiếp tục bùng nổ',
                 author: {
@@ -761,7 +761,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute left:0 bottom-0 border-t-[10px] border-r-[5px]  lg:top-0 lg:right-0 lg:border-b-[5px] lg:border-t-0 lg:border-r-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/03/file-thumb-5-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Phân tích chỉ số ngân hàng dưới góc độ bóng đá',
                 content: 'Phân tích chỉ số ngân hàng dưới góc độ bóng đá',
                 author: {
@@ -778,7 +778,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute bottom-0 right-0 border-t-[10px] border-l-[5px] lg:border-t-[5px] lg:border-l-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/02/Thi-truong-CK-2022-2025-AzFin-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Thị trường chứng khoán 2022-2025: Cơ hội đổi đời cho nhà đầu tư',
                 content: 'Thị trường chứng khoán 2022-2025: Cơ hội đổi đời cho nhà đầu tư',
                 author: {
@@ -800,7 +800,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute top-0 left-0 right-0 lg:top-0 lg:left-0 lg:bottom-0 border-r-0 lg:border-r-[10px] text-[2.4rem]-full lg:w-[67.4%] h-2/3 lg:h-full',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/01/Trien-vong-co-phieu-nganh-chung-khoan-2022-2023-AzFin-780x516.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Triển vọng cổ phiếu ngành chứng khoán giai đoạn 2022 – 2023',
                 content: 'Triển vọng cổ phiếu ngành chứng khoán giai đoạn 2022 – 2023',
                 author: {
@@ -817,7 +817,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute left:0 bottom-0 border-t-[10px] border-r-[5px]  lg:top-0 lg:right-0 lg:border-b-[5px] lg:border-t-0 lg:border-r-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2022/01/Trieng-vong-nganh-ban-le-2022-2025-AzFinl-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Triển vọng cổ phiếu ngành bán lẻ giai đoạn 2021 – 2025',
                 content: 'Triển vọng cổ phiếu ngành bán lẻ giai đoạn 2021 – 2025',
                 author: {
@@ -834,7 +834,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute bottom-0 right-0 border-t-[10px] border-l-[5px] lg:border-t-[5px] lg:border-l-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2021/12/Facebook-Promotiont-Tich-san-CP-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Giới thiệu Cộng đồng “Tích sản Cổ phiếu – Tự do Tài chính”',
                 content: 'Giới thiệu Cộng đồng “Tích sản Cổ phiếu – Tự do Tài chính”',
                 author: {
@@ -856,7 +856,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute top-0 left-0 right-0 lg:top-0 lg:left-0 lg:bottom-0 border-r-0 lg:border-r-[10px] text-[2.4rem]-full lg:w-[67.4%] h-2/3 lg:h-full',
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/thumnail-diem-tin-4-780x516.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Điểm tin chứng khoán ngày 07/02/2023',
                 content: 'Điểm tin chứng khoán ngày 07/02/2023',
                 author: {
@@ -873,7 +873,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute left:0 bottom-0 border-t-[10px] border-r-[5px]  lg:top-0 lg:right-0 lg:border-b-[5px] lg:border-t-0 lg:border-r-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/dsffdfds-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Cách phân tích báo cáo tài chính trong đầu tư chứng khoán',
                 content: 'Cách phân tích báo cáo tài chính trong đầu tư chứng khoán',
                 author: {
@@ -890,7 +890,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute bottom-0 right-0 border-t-[10px] border-l-[5px] lg:border-t-[5px] lg:border-l-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/thumnail-diem-tin-3-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Điểm tin chứng khoán ngày 06/02/2023',
                 content: 'Điểm tin chứng khoán ngày 06/02/2023',
                 author: {
@@ -912,7 +912,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute top-0 left-0 right-0 lg:top-0 lg:left-0 lg:bottom-0 border-r-0 lg:border-r-[10px] text-[2.4rem]-full lg:w-[67.4%] h-2/3 lg:h-full',
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/ssd-1-780x516.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Cách đọc báo cáo tài chính trong đầu tư chứng khoán',
                 content: 'Cách đọc báo cáo tài chính trong đầu tư chứng khoán',
                 author: {
@@ -929,7 +929,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute left:0 bottom-0 border-t-[10px] border-r-[5px]  lg:top-0 lg:right-0 lg:border-b-[5px] lg:border-t-0 lg:border-r-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/sddf-585x390.jpg")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Báo cáo tài chính gồm những gì?',
                 content: 'Báo cáo tài chính gồm những gì?',
                 author: {
@@ -946,7 +946,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute bottom-0 right-0 border-t-[10px] border-l-[5px] lg:border-t-[5px] lg:border-l-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/thumnail-diem-tin-2-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Điểm tin chứng khoán ngày 03/02/2023',
                 content: 'Điểm tin chứng khoán ngày 03/02/2023',
                 author: {
@@ -968,7 +968,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute top-0 left-0 right-0 lg:top-0 lg:left-0 lg:bottom-0 border-r-0 lg:border-r-[10px] text-[2.4rem]-full lg:w-[67.4%] h-2/3 lg:h-full',
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/TCB-780x516.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Cập nhật KQKD 2022 của TCB: Khủng hoảng trái phiếu ảnh hưởng mạnh đến KQKD',
                 content: 'Cập nhật KQKD 2022 của TCB: Khủng hoảng trái phiếu ảnh hưởng mạnh đến KQKD',
                 author: {
@@ -985,7 +985,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute left:0 bottom-0 border-t-[10px] border-r-[5px]  lg:top-0 lg:right-0 lg:border-b-[5px] lg:border-t-0 lg:border-r-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/thumnail-diem-tin-1-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Điểm tin chứng khoán ngày 02/02/2023',
                 content: 'Điểm tin chứng khoán ngày 02/02/2023',
                 author: {
@@ -1002,7 +1002,7 @@ export const DATA_NEWS = [
             {
                 name: 'absolute bottom-0 right-0 border-t-[10px] border-l-[5px] lg:border-t-[5px] lg:border-l-0 text-[2.4rem], w-1/2 h-1/3 lg:w-[32.6%] lg:h-1/2',
                 image: 'url("https://azfin.vn/wp-content/uploads/2023/02/file-thumb-585x390.png")',
-                href: '/@represent',
+                href: '/represent',
                 title: 'Cập nhật KQKD của MBB năm 2022: Đi nhanh và bền vững',
                 content: 'Cập nhật KQKD của MBB năm 2022: Đi nhanh và bền vững',
                 author: {

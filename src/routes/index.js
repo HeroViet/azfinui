@@ -48,7 +48,7 @@ const publicRoutes = [
     { path: '/@tuanhoang3p', component: tuanhoang3p },
     { path: '/@mainguyen', component: mainguyen },
     { path: '/@generalPost', component: generalPost },
-    { path: '/@represent', component: Represent },
+    { path: '/represent', component: Represent },
     // { path: '/@generalpo', component: generalPost },
 ];
 
