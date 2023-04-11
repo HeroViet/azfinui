@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/azfinui/static/css/main.9d365c70.css",
-    "main.js": "/azfinui/static/js/main.e04b58a1.js",
+    "main.css": "/azfinui/static/css/main.c5ada3d2.css",
+    "main.js": "/azfinui/static/js/main.b261a4ea.js",
     "static/js/787.39a8c270.chunk.js": "/azfinui/static/js/787.39a8c270.chunk.js",
     "index.html": "/azfinui/index.html",
-    "main.9d365c70.css.map": "/azfinui/static/css/main.9d365c70.css.map",
-    "main.e04b58a1.js.map": "/azfinui/static/js/main.e04b58a1.js.map",
+    "main.c5ada3d2.css.map": "/azfinui/static/css/main.c5ada3d2.css.map",
+    "main.b261a4ea.js.map": "/azfinui/static/js/main.b261a4ea.js.map",
     "787.39a8c270.chunk.js.map": "/azfinui/static/js/787.39a8c270.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d365c70.css",
-    "static/js/main.e04b58a1.js"
+    "static/css/main.c5ada3d2.css",
+    "static/js/main.b261a4ea.js"
   ]
 }
