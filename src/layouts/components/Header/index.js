@@ -15,10 +15,10 @@ export const NAV_ITEMS = [
         title: 'VỀ CHÚNG TÔI',
         href: '#',
         types: [
-            { item: 'LỊCH SỬ HÌNH THÀNH', href: '/@history' },
-            { item: 'TẦM NHÌN & SỨ MỆNH', href: '/@vision' },
-            { item: 'SƠ ĐỒ TỔ CHỨC', href: '/@diagram' },
-            { item: 'TIN TỨC AZFIN', href: '/@azfinnews' },
+            { item: 'LỊCH SỬ HÌNH THÀNH', href: '/azfinui/history' },
+            { item: 'TẦM NHÌN & SỨ MỆNH', href: '/azfinui/vision' },
+            { item: 'SƠ ĐỒ TỔ CHỨC', href: '/azfinui/diagram' },
+            { item: 'TIN TỨC AZFIN', href: '/azfinui/azfinnews' },
         ],
     },
     {
@@ -35,9 +35,9 @@ export const NAV_ITEMS = [
         title: 'KIẾN THỨC ĐẦU TƯ',
         href: '#',
         types: [
-            { item: 'TIN TỨC HÀNG NGÀY', href: '/@newsday' },
-            { item: 'THÔNG TIN KINH TẾ VÀ ĐẦU TƯ', href: '/@information' },
-            { item: 'KIẾN THỨC CƠ BẢN', href: '/@basics' },
+            { item: 'TIN TỨC HÀNG NGÀY', href: '/azfinui/newsday' },
+            { item: 'THÔNG TIN KINH TẾ VÀ ĐẦU TƯ', href: '/azfinui/information' },
+            { item: 'KIẾN THỨC CƠ BẢN', href: '/azfinui/basics' },
         ],
     },
     {
@@ -61,7 +61,7 @@ export const NAV_ITEMS = [
     },
     {
         title: 'LIÊN HỆ',
-        href: '/@contact',
+        href: '/azfinui/contact',
     },
 ];
 

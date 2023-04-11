@@ -42,37 +42,37 @@ function MenuBar({ number }) {
             id: 1,
             title: 'Giới thiệu Cộng đồng "Tích sản Cổ phiếu – Tự do tài chính"',
             image: 'url(https://azfin.vn/wp-content/uploads/2021/12/Facebook-Promotiont-Tich-san-CP-263x175.jpg)',
-            url: '#',
+            url: '/azfinui/represent',
         },
         {
             id: 2,
             title: 'AFS – "hố tử thần" trong BCTC Công ty chứng khoán',
             image: 'url(https://azfin.vn/wp-content/uploads/2022/07/cac-chi-tieu-tai-chinh-cua-doanh-nghiep-263x175.png)',
-            url: '#',
+            url: '/azfinui/represent',
         },
         {
             id: 3,
             title: 'Giới thiệu Cộng đồng "Tích sản Cổ phiếu – Tự do tài chính"',
             image: 'url(https://azfin.vn/wp-content/uploads/2021/12/Facebook-Promotiont-Tich-san-CP-263x175.jpg)',
-            url: '#',
+            url: '/azfinui/represent',
         },
         {
             id: 4,
             title: 'AFS – "hố tử thần" trong BCTC Công ty chứng khoán',
             image: 'url(https://azfin.vn/wp-content/uploads/2022/07/cac-chi-tieu-tai-chinh-cua-doanh-nghiep-263x175.png)',
-            url: '#',
+            url: '/azfinui/represent',
         },
         {
             id: 5,
             title: 'Giới thiệu Cộng đồng "Tích sản Cổ phiếu – Tự do tài chính"',
             image: 'url(https://azfin.vn/wp-content/uploads/2021/12/Facebook-Promotiont-Tich-san-CP-263x175.jpg)',
-            url: '#',
+            url: '/azfinui/represent',
         },
         {
             id: 6,
             title: 'AFS – "hố tử thần" trong BCTC Công ty chứng khoán',
             image: 'url(https://azfin.vn/wp-content/uploads/2022/07/cac-chi-tieu-tai-chinh-cua-doanh-nghiep-263x175.png)',
-            url: '#',
+            url: '/azfinui/represent',
         },
     ];
     const dataFooter = '@2021 - Bản quyền nội dung thuộc về ';
