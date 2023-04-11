@@ -8,12 +8,12 @@ import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
-function NewsItem({ datas, item }) {
+function NewsItem({ datas, item, handlesecond = false }) {
     return (
         <li className={cx('news-item-wrapper', 'flex flex-col md:flex-row')}>
             <div className="w-full md:w-[46.25%] h-auto">
                 <Link
-                    to={datas.href || datas.posts[item].href}
+                    to={!handlesecond ? datas.href : datas.posts[item].href}
                     style={{ backgroundImage: datas.image || datas.posts[item].image }}
                     className={cx('news-item-image')}
                 >
@@ -25,14 +25,16 @@ function NewsItem({ datas, item }) {
                     {datas.titleParent || datas.title}
                 </Link>
                 <h2 className={cx('news-item-content-title')}>
-                    <Link to={datas.href || datas.posts[item].href}>{datas.title || datas.posts[item].title}</Link>
+                    <Link to={!handlesecond ? datas.href : datas.posts[item].href}>
+                        {!handlesecond ? datas.title : datas.posts[item].title}
+                    </Link>
                 </h2>
                 <div className={cx('news-item-note')}>
                     <span>
                         bởi{' '}
                         <Link
                             className={cx('news-item-note-author')}
-                            href={datas.author?.href || datas.posts[item].author.href}
+                            to={datas.author?.href || datas.posts[item].author.href}
                         >
                             {datas.author?.name || datas.posts[item].author.name}
                         </Link>

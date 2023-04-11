@@ -240,7 +240,7 @@ function Footer() {
             <section className={cx('footer-note')}>
                 <div className={cx('footer-note-wrapper')}>
                     <span>{DATA_FOOTER.footer}</span>
-                    <Link to="/" className="text-orange-400 ml-2">
+                    <Link to="/azfinui" className="text-orange-400 ml-2">
                         {' '}
                         AzFin
                     </Link>

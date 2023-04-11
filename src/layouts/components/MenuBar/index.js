@@ -107,7 +107,7 @@ function MenuBar({ number }) {
                             <FontAwesomeIcon icon={faXmark} className={cx('icon')} />
                         </motion.span>
                         <div className={cx('logo')}>
-                            <Link to="/">
+                            <Link to="/azfinui">
                                 <img title="Azfin" src={image.logo} />
                             </Link>
                         </div>

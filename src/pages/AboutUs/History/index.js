@@ -49,7 +49,7 @@ function History() {
                                 giúp cho Việt Nam trở nên hùng cường.
                             </p>
                         </div>
-                        <Link to="/@contact" className={cx('content-contact')}>
+                        <Link to="/azfinui/contact" className={cx('content-contact')}>
                             LIÊN HỆ
                         </Link>
                     </div>

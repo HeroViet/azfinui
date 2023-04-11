@@ -1,8 +1,4 @@
-import styles from './Diagram.module.scss';
-import classNames from 'classnames/bind';
 import AboutUsTitle from '~/layouts/components/AboutUsTitle';
-
-const cx = classNames.bind(styles);
 
 function Diagram() {
     return (

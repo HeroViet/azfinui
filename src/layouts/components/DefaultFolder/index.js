@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
-function DefaultFolder({ datas, headerTitle }) {
+function DefaultFolder({ handlesecond = false, datas, headerTitle }) {
     const [count, setCount] = useState(0);
 
     const postLength = datas.posts.length;
@@ -34,7 +34,9 @@ function DefaultFolder({ datas, headerTitle }) {
                 <FolderTitle data={headerTitle} />
                 <div className={cx('news-list')}>
                     {arrAll[count].map((item, index) => {
-                        return <NewsItem key={index} datas={datas} item={item} index={index} />;
+                        return (
+                            <NewsItem key={index} datas={datas} item={item} handlesecond={handlesecond} index={index} />
+                        );
                     })}
                 </div>
                 <div className="flex">

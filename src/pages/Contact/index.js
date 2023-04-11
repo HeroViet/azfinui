@@ -21,7 +21,7 @@ function Contact() {
                             <p>Đội ngũ CSKH của AzFin sẽ cố gắng liên hệ với bạn 24/7 để hỗ trợ bạn nhiệt tình nhất.</p>
                         </div>
                         <div className={cx('contact-btn')}>
-                            <Link to="/@contact" className={cx('contact-btn-content')}>
+                            <Link to="/azfinui/contact" className={cx('contact-btn-content')}>
                                 LIÊN HỆ
                             </Link>
                         </div>

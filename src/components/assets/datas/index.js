@@ -256,7 +256,7 @@ export const DATA_GLOBAL = [
     },
     {
         title: 'Kiến thức cơ bản',
-        href: '/basics',
+        href: '/azfinui/basics',
         kind: 'SIDEBAR_LEFT',
         posts: [
             {
