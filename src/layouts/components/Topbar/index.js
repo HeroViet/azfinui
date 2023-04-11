@@ -5,6 +5,7 @@ import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons
 import { faFacebookF, faLinkedin, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { DATA_NEWS, DATA_SOCIALS } from '~/components/assets/datas';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -100,9 +101,9 @@ function Topbar({ heightOffset }) {
                             >
                                 {topbarList.map((item, index) => {
                                     return (
-                                        <a href={item.href} key={index} className={cx('topbar-news-list-item')}>
+                                        <Link to={item.href} key={index} className={cx('topbar-news-list-item')}>
                                             {item.content}
-                                        </a>
+                                        </Link>
                                     );
                                 })}
                             </div>
@@ -127,7 +128,7 @@ function Topbar({ heightOffset }) {
                     {DATA_NAV_TOPBAR.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a href={item.href}>{item.title}</a>
+                                <Link to={item.href}>{item.title}</Link>
                             </li>
                         );
                     })}

@@ -9,6 +9,7 @@ import { Fragment, useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import useDelayUnmount from '~/components/useDelayUnmount';
 import { faFacebookF, faLinkedin, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -106,9 +107,9 @@ function MenuBar({ number }) {
                             <FontAwesomeIcon icon={faXmark} className={cx('icon')} />
                         </motion.span>
                         <div className={cx('logo')}>
-                            <a href="/">
+                            <Link to="/">
                                 <img title="Azfin" src={image.logo} />
-                            </a>
+                            </Link>
                         </div>
                         <div className={cx('nav')}>
                             {NAV_ITEMS.map((item, index) => {
@@ -116,7 +117,7 @@ function MenuBar({ number }) {
                                     return (
                                         <div key={index} className={cx('nav-list')}>
                                             <div className={cx('nav-item')}>
-                                                <a href={item.href}>{item.title}</a>
+                                                <Link to={item.href}>{item.title}</Link>
                                                 {!clickNavBar && (
                                                     <FontAwesomeIcon
                                                         className={cx('nav-icon')}
@@ -156,7 +157,7 @@ function MenuBar({ number }) {
                                                     {item.types.map((item, index) => {
                                                         return (
                                                             <li key={index}>
-                                                                <a href={item.href}>{item.item}</a>
+                                                                <Link to={item.href}>{item.item}</Link>
                                                             </li>
                                                         );
                                                     })}
@@ -168,7 +169,7 @@ function MenuBar({ number }) {
                                 if (!item.types) {
                                     return (
                                         <div key={index} className={cx('nav-contact')}>
-                                            <a href="#">LIÊN HỆ</a>
+                                            <Link to="#">LIÊN HỆ</Link>
                                         </div>
                                     );
                                 }
@@ -187,11 +188,11 @@ function MenuBar({ number }) {
                                                 {dataPopular.id}
                                             </span>
                                             <div style={bgImage} className={cx('popular-image')}>
-                                                <a href={dataPopular.url} />
+                                                <Link to={dataPopular.url} />
                                             </div>
-                                            <a href={dataPopular.url} className={cx('popular-title')}>
+                                            <Link to={dataPopular.url} className={cx('popular-title')}>
                                                 {dataPopular.title}
-                                            </a>
+                                            </Link>
                                         </li>
                                     );
                                 })}
@@ -200,12 +201,12 @@ function MenuBar({ number }) {
                         <footer className={cx('footer')}>
                             <div className={cx('footer-content')}>
                                 {dataFooter}
-                                <a className={cx('footer-azfin')} href="#">
+                                <Link className={cx('footer-azfin')} to="#">
                                     AzFin
-                                </a>
+                                </Link>
                                 <br />
                                 <p>
-                                    <a
+                                    <Link
                                         href="https://www.dmca.com/Protection/Status.aspx?ID=463b1d0b-5767-4c19-8d47-03c48912f92c&refurl=https://azfin.vn/"
                                         title="DMCA.com Protection Status"
                                     >
@@ -213,7 +214,7 @@ function MenuBar({ number }) {
                                             src="https://images.dmca.com/Badges/dmca-badge-w150-5x1-01.png?ID=463b1d0b-5767-4c19-8d47-03c48912f92c"
                                             alt="DMCA.com Protection Status"
                                         />
-                                    </a>
+                                    </Link>
                                 </p>
                             </div>
                             <div className={cx('footer-nav-social')}>

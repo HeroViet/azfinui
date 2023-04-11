@@ -4,6 +4,7 @@ import NewsItem from '../NewsItem';
 import { useState } from 'react';
 import styles from './Author.module.scss';
 import classNames from 'classnames/bind';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -63,7 +64,7 @@ function Author({ datas }) {
                                     setCount(index);
                                 }}
                             >
-                                <a href="#default">{index + 1}</a>
+                                <Link to="#default">{index + 1}</Link>
                             </li>
                         );
                     })}

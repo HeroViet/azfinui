@@ -2,6 +2,7 @@ import styles from './Nav.module.scss';
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -13,14 +14,14 @@ function Nav({ items }) {
                     return (
                         <div key={index} className={cx('nav-list', ' mr-[1.6rem] xl:mr-12')}>
                             <div className={cx('nav-item')}>
-                                <a href={item.href}>{item.title}</a>
+                                <Link to={item.href}>{item.title}</Link>
                                 <FontAwesomeIcon className={cx('nav-icon')} icon={faChevronDown} />
                             </div>
                             <div className={cx('nav-sub')}>
                                 {item.types.map((item, index) => {
                                     return (
                                         <li key={index}>
-                                            <a href={item.href}>{item.item}</a>
+                                            <Link to={item.href}>{item.item}</Link>
                                         </li>
                                     );
                                 })}
@@ -30,7 +31,7 @@ function Nav({ items }) {
                 if (!item.types) {
                     return (
                         <div key={index} className={cx('nav-contact')}>
-                            <a href={item.href}>LIÊN HỆ</a>
+                            <Link to={item.href}>LIÊN HỆ</Link>
                         </div>
                     );
                 }

@@ -2,6 +2,7 @@ import styles from './History.module.scss';
 import classNames from 'classnames/bind';
 import AboutUsTitle from '~/layouts/components/AboutUsTitle';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -48,9 +49,9 @@ function History() {
                                 giúp cho Việt Nam trở nên hùng cường.
                             </p>
                         </div>
-                        <a href="/@contact" className={cx('content-contact')}>
+                        <Link to="/@contact" className={cx('content-contact')}>
                             LIÊN HỆ
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

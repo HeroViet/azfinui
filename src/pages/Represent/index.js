@@ -4,13 +4,14 @@ import classNames from 'classnames/bind';
 import { useState } from 'react';
 import { DATA_GLOBAL, DATA_NEWS, DATA_SOCIALS } from '~/components/assets/datas';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft, faChevronRight, faEnvelope, faHeart, faMinus } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHeart, faMinus } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faPinterest, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, EffectFade } from 'swiper';
+import { Navigation, Pagination, EffectFade } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { Link } from 'react-router-dom';
 // import 'swiper/components/navigation/navigation.scss';
 // import 'swiper/components/pagination/pagination.scss';
 // // import 'swiper/components/scrollbar/scrollbar.scss';
@@ -27,13 +28,13 @@ function Represent() {
             <div className={cx('News-represent', 'w-full lg:w-[70.94%] pr-8 pl-8 sm:pr-0 sm:pl-0 lg:pr-20')}>
                 <div className={cx('News-represent-header')}>
                     <h4>
-                        <a href="/@AzfinNews">Tin tức Azfin</a>
+                        <Link to="/azfinui/AzfinNews">Tin tức Azfin</Link>
                     </h4>
                     <h1>Điểm tin chứng khoán ngày 02/03/2023</h1>
                     <div className={cx('News-represent-direction')}>
                         <span>
                             {' Viết bởi '}
-                            <a href="/@khoidang">Khoi Dang</a>
+                            <Link tp="/azfinui/khoidang">Khoi Dang</Link>
                         </span>
                         <span>02/03/2023</span>
                     </div>
@@ -90,8 +91,9 @@ function Represent() {
                 </div>
                 <p className={cx('News-title')}>
                     <i>
-                        Kính mời các quý anh chị nhà đầu tư cùng <a href="/">AzFin</a> điểm qua những điểm tin chính về
-                        tình hình diễn biến tài chính kinh tế, chứng khoán trước giờ giao dịch hôm nay ngày 02/03/2023.
+                        Kính mời các quý anh chị nhà đầu tư cùng <Link to="/">AzFin</Link> điểm qua những điểm tin chính
+                        về tình hình diễn biến tài chính kinh tế, chứng khoán trước giờ giao dịch hôm nay ngày
+                        02/03/2023.
                     </i>
                 </p>
                 <div className={cx('News-one')}>
@@ -298,7 +300,7 @@ function Represent() {
                 </div>
                 <div className={cx('News-more')}>
                     <span>Xem thêm: </span>
-                    <a href="/@represent">Điểm tin chứng khoán ngày 01/03/2023</a>
+                    <Link to="/azfinui/represent">Điểm tin chứng khoán ngày 01/03/2023</Link>
                 </div>
                 <p>________</p>
                 <div>Xem thêm các dịch vụ khác của AzFin: </div>
@@ -322,15 +324,16 @@ function Represent() {
                     </li>
                     <li>
                         <FontAwesomeIcon icon={faMinus} />
-                        Khoá học chinh phục cổ phiếu ngân hàng: <a>https://chinhphuccophieunganhang.azfin.vn/</a>
+                        Khoá học chinh phục cổ phiếu ngân hàng:{' '}
+                        <a href="/#">https://chinhphuccophieunganhang.azfin.vn/</a>
                     </li>
                 </div>
                 <div className={cx('News-nav')}>
                     {DATA_GLOBAL.map((item, index) => {
                         return (
-                            <a href={item.href} key={index}>
+                            <Link to={item.href} key={index}>
                                 {item.title}
-                            </a>
+                            </Link>
                         );
                     })}
                 </div>
@@ -339,18 +342,18 @@ function Represent() {
                         <span className={cx('News-item-icon')}>
                             <FontAwesomeIcon icon={faHeart} />
                         </span>
-                        <a href="#" className={cx('News-item-icon')}>
+                        <Link to="#" className={cx('News-item-icon')}>
                             <FontAwesomeIcon icon={faFacebookF} />
-                        </a>
-                        <a href="#" className={cx('News-item-icon')}>
+                        </Link>
+                        <Link to="#" className={cx('News-item-icon')}>
                             <FontAwesomeIcon icon={faTwitter} />
-                        </a>
-                        <a href="#" className={cx('News-item-icon')}>
+                        </Link>
+                        <Link to="#" className={cx('News-item-icon')}>
                             <FontAwesomeIcon icon={faPinterest} />
-                        </a>
-                        <a href="#" className={cx('News-item-icon')}>
+                        </Link>
+                        <Link to="#" className={cx('News-item-icon')}>
                             <FontAwesomeIcon icon={faEnvelope} />
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className={cx('author-properties')}>
@@ -369,13 +372,13 @@ function Represent() {
                         <div>
                             <span>Bài trước</span>
                         </div>
-                        <a href="/@represent">Điểm tin chứng khoán ngày 01/03/2023</a>
+                        <Link to="/azfinui/represent">Điểm tin chứng khoán ngày 01/03/2023</Link>
                     </div>
                     <div className={cx('News-pagination-next')}>
                         <div>
                             <span>Bài tiếp theo</span>
                         </div>
-                        <a href="/@represent">Điểm tin chứng khoán ngày 03/03/2023</a>
+                        <Link to="/azfinui/represent">Điểm tin chứng khoán ngày 03/03/2023</Link>
                     </div>
                 </div>
                 <div className={cx('News-swiper-title')}>
@@ -395,109 +398,109 @@ function Represent() {
                 >
                     <SwiperSlide>
                         <div className="w-full h-auto">
-                            <a
-                                href="/@represent"
+                            <Link
+                                to="/azfinui/represent"
                                 style={{
                                     backgroundImage: DATA_NEWS[5].item[0].image,
                                 }}
                                 className={cx('news-item-image')}
                             >
                                 {''}
-                            </a>
+                            </Link>
                         </div>
                         <div className={cx('News-swiper-slide-title')}>
                             <h3>
-                                <a href="/@represent">{DATA_NEWS[5].item[0].title}</a>
+                                <Link to="/azfinui/represent">{DATA_NEWS[5].item[0].title}</Link>
                             </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-full h-auto">
-                            <a
-                                href="/@represent"
+                            <Link
+                                to="/azfinui/represent"
                                 style={{
                                     backgroundImage: DATA_NEWS[5].item[1].image,
                                 }}
                                 className={cx('news-item-image')}
                             >
                                 {''}
-                            </a>
+                            </Link>
                         </div>
                         <div className={cx('News-swiper-slide-title')}>
                             <h3>
-                                <a href="/@represent">{DATA_NEWS[5].item[1].title}</a>
+                                <Link to="/azfinui/represent">{DATA_NEWS[5].item[1].title}</Link>
                             </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-full h-auto">
-                            <a
-                                href="/@represent"
+                            <Link
+                                to="/azfinui/represent"
                                 style={{
                                     backgroundImage: DATA_NEWS[5].item[2].image,
                                 }}
                                 className={cx('news-item-image')}
                             >
                                 {''}
-                            </a>
+                            </Link>
                         </div>
                         <div className={cx('News-swiper-slide-title')}>
                             <h3>
-                                <a href="/@represent">{DATA_NEWS[5].item[2].title}</a>
+                                <Link to="/azfinui/represent">{DATA_NEWS[5].item[2].title}</Link>
                             </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-full h-auto">
-                            <a
-                                href="/@represent"
+                            <Link
+                                href="/azfinui/represent"
                                 style={{
                                     backgroundImage: DATA_NEWS[5].item[0].image,
                                 }}
                                 className={cx('news-item-image')}
                             >
                                 {''}
-                            </a>
+                            </Link>
                         </div>
                         <div className={cx('News-swiper-slide-title')}>
                             <h3>
-                                <a href="/@represent">{DATA_NEWS[5].item[0].title}</a>
+                                <Link to="/azfinui/represent">{DATA_NEWS[5].item[0].title}</Link>
                             </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-full h-auto">
-                            <a
-                                href="/@represent"
+                            <Link
+                                href="/azfinui/represent"
                                 style={{
                                     backgroundImage: DATA_NEWS[5].item[1].image,
                                 }}
                                 className={cx('news-item-image')}
                             >
                                 {''}
-                            </a>
+                            </Link>
                         </div>
                         <div className={cx('News-swiper-slide-title')}>
                             <h3>
-                                <a href="/@represent">{DATA_NEWS[5].item[1].title}</a>
+                                <Link to="/azfinui/represent">{DATA_NEWS[5].item[1].title}</Link>
                             </h3>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="w-full h-auto">
-                            <a
-                                href="/@represent"
+                            <Link
+                                href="/azfinui/represent"
                                 style={{
                                     backgroundImage: DATA_NEWS[5].item[2].image,
                                 }}
                                 className={cx('news-item-image')}
                             >
                                 {''}
-                            </a>
+                            </Link>
                         </div>
                         <div className={cx('News-swiper-slide-title')}>
                             <h3>
-                                <a href="/@represent">{DATA_NEWS[5].item[2].title}</a>
+                                <Link to="/azfinui/represent">{DATA_NEWS[5].item[2].title}</Link>
                             </h3>
                         </div>
                     </SwiperSlide>

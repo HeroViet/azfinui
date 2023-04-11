@@ -7,6 +7,7 @@ import Nav from '../Nav';
 import { Fragment, useEffect, useState } from 'react';
 import MenuBar from '../MenuBar';
 import Topbar from '../Topbar';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -109,9 +110,9 @@ function Header() {
                             <FontAwesomeIcon icon={faBars} />
                         </button>
                         <div className={cx('logo-default')}>
-                            <a href="/">
+                            <Link to="/">
                                 <img src={image.logo} alt="AzFin Việt Nam" />
-                            </a>
+                            </Link>
                         </div>
                         <Nav items={NAV_ITEMS} nav />
                         <button

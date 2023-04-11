@@ -5,6 +5,7 @@ import FolderTitle from '../FolderTitle';
 
 import { useState } from 'react';
 import NewsItem from '../NewsItem';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -55,7 +56,7 @@ function DefaultFolder({ datas, headerTitle }) {
                                     setCount(index);
                                 }}
                             >
-                                <a href="#default">{index + 1}</a>
+                                <Link to="#default">{index + 1}</Link>
                             </li>
                         );
                     })}

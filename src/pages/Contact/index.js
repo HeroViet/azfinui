@@ -2,6 +2,7 @@ import styles from './Contact.module.scss';
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCity, faEnvelopeOpenText, faGlobe, faPhoneFlip } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -20,9 +21,9 @@ function Contact() {
                             <p>Đội ngũ CSKH của AzFin sẽ cố gắng liên hệ với bạn 24/7 để hỗ trợ bạn nhiệt tình nhất.</p>
                         </div>
                         <div className={cx('contact-btn')}>
-                            <a href="/@contact" className={cx('contact-btn-content')}>
+                            <Link to="/@contact" className={cx('contact-btn-content')}>
                                 LIÊN HỆ
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

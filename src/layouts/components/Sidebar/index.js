@@ -5,22 +5,23 @@ import { faChevronRight, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { DATA_SIDEBAR } from '../SidebarLeft';
 import { faFacebookF, faLinkedin, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { DATA_SOCIALS } from '~/components/assets/datas';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
 const DATA_SIDEBAR_LIST = [
-    { title: 'Câu hỏi thường gặp', href: '/@generalPost' },
-    { title: 'Chứng khoán TV', href: '/@generalPost' },
-    { title: 'Giới thiệu về TSCP', href: '/@generalPost' },
-    { title: 'Kiến thức cơ bản', href: '/@generalPost' },
-    { title: 'Quy chế TSCP', href: '/@generalPost' },
-    { title: 'Thông tin cổ phiếu', href: '/@generalPost' },
-    { title: 'Thông tin kinh tế và đầu tư', href: '/@generalPost' },
-    { title: 'Tin tức Azfin', href: '/@generalPost' },
-    { title: 'Tin tức hàng ngày', href: '/@generalPost' },
-    { title: 'Uncategorized', href: '/@generalPost', note: 'different' },
-    { title: 'Tư vấn doanh nghiệp', href: '/@generalPost' },
-    { title: 'Đào tạo chứng khoán', href: '/@generalPost' },
+    { title: 'Câu hỏi thường gặp', href: '/azfinui/generalPost' },
+    { title: 'Chứng khoán TV', href: '/azfinui/generalPost' },
+    { title: 'Giới thiệu về TSCP', href: '/azfinui/generalPost' },
+    { title: 'Kiến thức cơ bản', href: '/azfinui/generalPost' },
+    { title: 'Quy chế TSCP', href: '/azfinui/generalPost' },
+    { title: 'Thông tin cổ phiếu', href: '/azfinui/generalPost' },
+    { title: 'Thông tin kinh tế và đầu tư', href: '/azfinui/generalPost' },
+    { title: 'Tin tức Azfin', href: '/azfinui/generalPost' },
+    { title: 'Tin tức hàng ngày', href: '/azfinui/generalPost' },
+    { title: 'Uncategorized', href: '/azfinui/generalPost', note: 'different' },
+    { title: 'Tư vấn doanh nghiệp', href: '/azfinui/generalPost' },
+    { title: 'Đào tạo chứng khoán', href: '/azfinui/generalPost' },
 ];
 
 function Sidebar({ home = false }) {
@@ -54,13 +55,15 @@ function Sidebar({ home = false }) {
                         {arr.map((item, index) => {
                             return (
                                 <li key={index}>
-                                    <a href={DATA_SIDEBAR[0].posts[item].href}>{DATA_SIDEBAR[0].posts[item].title}</a>
+                                    <Link to={DATA_SIDEBAR[0].posts[item].href}>
+                                        {DATA_SIDEBAR[0].posts[item].title}
+                                    </Link>
                                 </li>
                             );
                         })}
                     </div>
                     <div className={cx('sidebar-posts-init')}>
-                        <a href={DATA_SIDEBAR[0].posts[0].href}>{DATA_SIDEBAR[0].posts[0].title}</a>
+                        <Link to={DATA_SIDEBAR[0].posts[0].href}>{DATA_SIDEBAR[0].posts[0].title}</Link>
                     </div>
                 </div>
             </section>
@@ -109,17 +112,17 @@ function Sidebar({ home = false }) {
                         {arr.map((item, index) => {
                             return (
                                 <div key={index} className={cx('sidebar-tv-container')}>
-                                    <a
-                                        href={DATA_SIDEBAR[0].posts[item].href}
+                                    <Link
+                                        to={DATA_SIDEBAR[0].posts[item].href}
                                         className={cx('sidebar-tv-image')}
                                         style={{ backgroundImage: DATA_SIDEBAR[0].posts[item].image }}
                                     >
                                         {}
-                                    </a>
+                                    </Link>
                                     <h4>
-                                        <a href={DATA_SIDEBAR[0].posts[item].href}>
+                                        <Link to={DATA_SIDEBAR[0].posts[item].href}>
                                             {DATA_SIDEBAR[0].posts[item].title}
-                                        </a>
+                                        </Link>
                                     </h4>
                                 </div>
                             );
@@ -138,7 +141,7 @@ function Sidebar({ home = false }) {
                                 return (
                                     <li key={index} className={cx('sidebar-list-item')}>
                                         <FontAwesomeIcon icon={faChevronRight} className={cx('sidebar-list-icon')} />
-                                        <a href={item.href}>{item.title}</a>
+                                        <Link to={item.href}>{item.title}</Link>
                                     </li>
                                 );
                             }
@@ -149,7 +152,7 @@ function Sidebar({ home = false }) {
                                             icon={faChevronRight}
                                             className={cx('sidebar-list-icon', 'ml-8')}
                                         />
-                                        <a href={item.href}>{item.title}</a>
+                                        <Link to={item.href}>{item.title}</Link>
                                     </li>
                                 );
                             } else return '';

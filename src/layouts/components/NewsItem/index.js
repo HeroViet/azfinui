@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import { faFacebookF, faPinterest, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -11,30 +12,30 @@ function NewsItem({ datas, item }) {
     return (
         <li className={cx('news-item-wrapper', 'flex flex-col md:flex-row')}>
             <div className="w-full md:w-[46.25%] h-auto">
-                <a
-                    href={datas.href || datas.posts[item].href}
+                <Link
+                    to={datas.href || datas.posts[item].href}
                     style={{ backgroundImage: datas.image || datas.posts[item].image }}
                     className={cx('news-item-image')}
                 >
                     {''}
-                </a>
+                </Link>
             </div>
             <div className={cx('news-item-content', 'w-full md:w-[53.75%] pl-0 md:pl-12')}>
-                <a href={datas.hrefParent || datas.href} className={cx('news-item-content-kind')}>
+                <Link to={datas.hrefParent || datas.href} className={cx('news-item-content-kind')}>
                     {datas.titleParent || datas.title}
-                </a>
+                </Link>
                 <h2 className={cx('news-item-content-title')}>
-                    <a href={datas.href || datas.posts[item].href}>{datas.title || datas.posts[item].title}</a>
+                    <Link to={datas.href || datas.posts[item].href}>{datas.title || datas.posts[item].title}</Link>
                 </h2>
                 <div className={cx('news-item-note')}>
                     <span>
                         bởi{' '}
-                        <a
+                        <Link
                             className={cx('news-item-note-author')}
                             href={datas.author?.href || datas.posts[item].author.href}
                         >
                             {datas.author?.name || datas.posts[item].author.name}
-                        </a>
+                        </Link>
                     </span>
                     <span>{datas.date || datas.posts[item].date}</span>
                 </div>
@@ -46,18 +47,18 @@ function NewsItem({ datas, item }) {
                         <span className={cx('news-item-icon')}>
                             <FontAwesomeIcon icon={faHeart} />
                         </span>
-                        <a href="/represent" className={cx('news-item-icon')}>
+                        <Link to="/#" className={cx('news-item-icon')}>
                             <FontAwesomeIcon icon={faFacebookF} />
-                        </a>
-                        <a href="/represent" className={cx('news-item-icon')}>
+                        </Link>
+                        <Link to="/#" className={cx('news-item-icon')}>
                             <FontAwesomeIcon icon={faTwitter} />
-                        </a>
-                        <a href="/represent" className={cx('news-item-icon')}>
+                        </Link>
+                        <Link to="/#" className={cx('news-item-icon')}>
                             <FontAwesomeIcon icon={faPinterest} />
-                        </a>
-                        <a href="/represent" className={cx('news-item-icon')}>
+                        </Link>
+                        <Link to="/#" className={cx('news-item-icon')}>
                             <FontAwesomeIcon icon={faEnvelope} />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

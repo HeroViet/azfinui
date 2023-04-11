@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faLinkedin, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { DATA_SOCIALS } from '~/components/assets/datas';
 import validator from 'validator';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -197,7 +198,7 @@ function Footer() {
                         {DATA_FOOTER.nav.map((item, index) => {
                             return (
                                 <li key={index}>
-                                    <a href={item.href}>{item.name}</a>
+                                    <Link to={item.href}>{item.name}</Link>
                                 </li>
                             );
                         })}
@@ -239,10 +240,10 @@ function Footer() {
             <section className={cx('footer-note')}>
                 <div className={cx('footer-note-wrapper')}>
                     <span>{DATA_FOOTER.footer}</span>
-                    <a href="/" className="text-orange-400 ml-2">
+                    <Link to="/" className="text-orange-400 ml-2">
                         {' '}
                         AzFin
-                    </a>
+                    </Link>
                 </div>
             </section>
         </footer>

@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { useLayoutEffect, useState } from 'react';
 import { DATA_NEWS } from '~/components/assets/datas';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -90,33 +91,33 @@ function News() {
                             {items.item.map((item, index) => {
                                 return (
                                     <div key={index} className={cx(item.name)}>
-                                        <a
+                                        <Link
                                             className={cx('news-image')}
                                             href={item.href}
                                             title={item.title}
                                             style={{ backgroundImage: item.image }}
                                         >
                                             {''}
-                                        </a>
+                                        </Link>
                                         <div className={cx('news-slide-overlay')}>
                                             <div className={cx('news-content')}>
                                                 <h3>
-                                                    <a
+                                                    <Link
                                                         className={cx('news-content-text')}
                                                         title={item.title}
-                                                        href={item.href}
+                                                        to={item.href}
                                                     >
                                                         {item.content}
-                                                    </a>
+                                                    </Link>
                                                 </h3>
                                                 <div className={cx('news-content-direction')}>
                                                     <span>
                                                         {'bởi '}
-                                                        <a href={item.author.href}>{item.author.name}</a>
+                                                        <Link to={item.author.href}>{item.author.name}</Link>
                                                     </span>
                                                     <span>{item.date}</span>
                                                     <span>
-                                                        <a href={item.comment.href}>{item.comment.amount}</a>
+                                                        <Link to={item.comment.href}>{item.comment.amount}</Link>
                                                     </span>
                                                 </div>
                                             </div>
