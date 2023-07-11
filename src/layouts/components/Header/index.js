@@ -110,7 +110,12 @@ function Header() {
                             <FontAwesomeIcon icon={faBars} />
                         </button>
                         <div className={cx('logo-default')}>
-                            <Link to="/azfinui">
+                            <Link
+                                to="/azfinui"
+                                onClick={() => {
+                                    window.reload();
+                                }}
+                            >
                                 <img src={image.logo} alt="AzFin Việt Nam" />
                             </Link>
                         </div>

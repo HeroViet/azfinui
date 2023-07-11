@@ -239,7 +239,7 @@ function Represent() {
                             vào doanh thu từ mảng năng lượng có thể bù đắp cho sự sụt giảm của mảng bất động sản
                         </i>
                     </p>
-                    <div className={cx('News-two-image')}>
+                    <div className={cx('News-two-image', 'w-full lg:w-[70.94%] ')}>
                         <img
                             src="https://azfin.vn/wp-content/uploads/2023/03/tt2-1.png"
                             alt="Kết quả kinh doanh Hà Đô"
@@ -290,7 +290,7 @@ function Represent() {
                             quyết định khả năng phục hồi và hướng phát triển trong tương lai của ngành này.
                         </i>
                     </p>
-                    <div className={cx('News-three-image')}>
+                    <div className={cx('News-three-image', 'w-full lg:w-[70.94%]')}>
                         <img
                             src="https://azfin.vn/wp-content/uploads/2023/03/tt1.png"
                             alt="Nguồn cung bất động sản 2022"
@@ -325,7 +325,7 @@ function Represent() {
                     <li>
                         <FontAwesomeIcon icon={faMinus} />
                         Khoá học chinh phục cổ phiếu ngân hàng:{' '}
-                        <a href="/#">https://chinhphuccophieunganhang.azfin.vn/</a>
+                        <a href="#!">https://chinhphuccophieunganhang.azfin.vn/</a>
                     </li>
                 </div>
                 <div className={cx('News-nav')}>

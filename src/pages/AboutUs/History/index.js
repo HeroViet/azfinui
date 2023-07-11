@@ -1,7 +1,7 @@
 import styles from './History.module.scss';
 import classNames from 'classnames/bind';
 import AboutUsTitle from '~/layouts/components/AboutUsTitle';
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
@@ -13,7 +13,7 @@ function History() {
             <div className={cx('content-container')}>
                 <div className={cx('content-wrapper')}>
                     <div className={cx('content-image', 'w-full md:w-1/2')}>
-                        <img src="https://azfin.vn/wp-content/uploads/2022/06/h2.png" />
+                        <img src="https://azfin.vn/wp-content/uploads/2022/06/h2.png" alt="" />
                     </div>
                     <div className={cx('content-body', 'w-full md:w-1/2')}>
                         <div className={cx('content-text')}>
